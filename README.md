@@ -11,9 +11,13 @@ or
 Add to your project path
 
 
+
+
 2.Include the lib in main file
 
 <font color="blue">#include"servo.h"<font>
+
+
 
 
 
@@ -23,9 +27,15 @@ Add to your project path
 
 <font color="blue">MultiServo servo</font>
 
+
+
 [2]define and init servo port in setup()
 
+#define MyServo 5
+#define MyServo2 4
 <font color="blue">servo.ServoInit(MyServo,MyServo2);</font>
+
+
 
 [3]Set angle
 
@@ -43,8 +53,10 @@ In this test
 'A+number' is change servo 1 angle
 
 
-[[Serial commmand could adjust in servo.cpp]]
 
+
+[[PS:Serial commmand could adjust in servo.cpp]]
+[[PS2:You can add other function in function 'ServoRunning',and your function with  be run]]
 
 
 
